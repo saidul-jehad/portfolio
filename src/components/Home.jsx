@@ -1,6 +1,6 @@
-import React, { useEffect, useRef } from "react";
+import { useEffect, useRef } from "react";
 import pdf from "../pdf/resume.pdf";
-import hero from "./data/hero.json";
+import profile from '../../public/assets/profile/profile.jpg'
 import Typed from "typed.js";
 
 const Home = () => {
@@ -9,15 +9,13 @@ const Home = () => {
     const options = {
       strings: [
         "Welcome to my profile",
-        "My Name is John Doe",
-        "I'm full stack developer",
-        "Androide Developer (React Native)",
+        "My Name is Md Jehad Hasan",
+        "I'm Mern stack developer",
       ],
       typeSpeed: 50,
       backSpeed: 50,
       loop: true,
     };
-
     const typed = new Typed(typedRef.current, options);
 
     return () => {
@@ -27,7 +25,7 @@ const Home = () => {
 
   return (
     <>
-      <div className="container home" id="home">
+      <div className="container home gap-14 mt-32 lg:mt-0 flex lg:flex-row flex-col-reverse" id="home">
         <div className="left" data-aos="fade-up-right" data-aos-duration="1000">
           <h1 ref={typedRef}></h1>
 
@@ -39,9 +37,10 @@ const Home = () => {
             Download Resume
           </a>
         </div>
-        <div className="right">
+
+        <div className="right lg:mr-12">
           <div className="img" data-aos="fade-up-left" data-aos-duration="1000">
-            <img src={`/assets/${hero.imgSrc}`} alt="hero" />
+            <img src={profile} alt="hero" />
           </div>
         </div>
       </div>
