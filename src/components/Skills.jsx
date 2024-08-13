@@ -4,7 +4,7 @@ const Skills = () => {
   return (
     <>
       <div className="container skills" id="skills">
-        <h1 className="text-center my-8">SKILLS</h1>
+        <h1 className="text-center my-8 text-3xl">SKILLS</h1>
         <div className="flex justify-center iitems items-center  flex-wrap flex-col md:flex-row m-auto">
           {skills.map((data) => (
             <>

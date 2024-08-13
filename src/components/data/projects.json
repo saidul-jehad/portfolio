@@ -1,34 +1,42 @@
 [
   {
     "key": 1,
-    "title": "React E-Commerce",
-    "imageSrc": "https://cdn.pixabay.com/photo/2018/02/04/17/39/crypto-currency-3130381_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "BistroBoss Restaurant",
+    "imageSrc": "https://i.ibb.co/mBsBg4b/Screenshot-2024-08-13-234312.png",
+    "description": "BistroBoss A responsive restaurant website with sleek design, interactive menus, and online reservations",
+    "demo": "https://bistro-boss-restaurant-finel-project.netlify.app",
+
+    "features": [
+      "Interactive Menu",
+      "Responsive Design",
+      "Special Offers"
+    ],
+    "technology": "React, Tailwind CSS, Node.js, Express.js, MongoDB ,etc "
   },
   {
     "key": 2,
-    "title": "MERN Blogging",
-    "imageSrc": "https://cdn.pixabay.com/photo/2017/05/02/15/30/streets-2278471_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "One Blood",
+    "imageSrc": "https://i.ibb.co/H4X1QjD/Screenshot-2024-08-14-002130.png",
+    "description": "Community-driven blood donation platform with real-time matching and emergency alerts",
+    "demo": "https://one-blood.netlify.app",
+    "features": [
+      "Search Functionality",
+      "Location-Based Matching",
+      "Donation History"
+    ],
+    "technology": "React, Tailwind CSS, Node.js, Express.js, MongoDB ,etc "
   },
   {
     "key": 3,
-    "title": "React Recipe",
-    "imageSrc": "https://cdn.pixabay.com/photo/2016/08/16/17/12/skyscrapers-1598418_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
-  },
-  {
-    "key": 4,
-    "title": "React Firebase App",
-    "imageSrc": "https://cdn.pixabay.com/photo/2021/03/02/01/07/cyberpunk-6061251_640.jpg",
-    "description": "This is a project made with complete React js.",
-    "demo": "https://www.example.com",
-    "source": "https://www.github.com"
+    "title": "BlogoSphere Buzz",
+    "imageSrc": "https://i.ibb.co/3sJ1ZRh/Screenshot-2024-08-13-234358.png",
+    "description": "Created a sleek, responsive blog platform with intuitive navigation and content management",
+    "demo": "https://blogosphere-buzz.netlify.app/",
+    "features": [
+      "Rich Text Editor",
+      "Commenting System",
+      "User Authentication"
+    ],
+    "technology": "React, Tailwind CSS, Node.js, Express.js, MongoDB ,etc "
   }
 ]
