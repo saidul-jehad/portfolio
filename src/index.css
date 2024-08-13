@@ -140,7 +140,7 @@ a {
   /* background-color: yellow; */
 }
 
-.skills .items .item {
+.skills .iitems .item {
   width: calc(33.33%);
   background-color: black;
   margin: 20px;
@@ -151,7 +151,7 @@ a {
   box-shadow: var(--box-shadow);
 }
 
-.skills .items .item img {
+.skills .iitems .item img {
   width: 70px;
 }
 
