@@ -10,16 +10,16 @@ import "aos/dist/aos.css"
 
 
 const App = () => {
- useEffect(() => {
-  Aos.init();
-  
- }, [])
- 
+  useEffect(() => {
+    Aos.init();
+
+  }, [])
+
   return (
     <>
-      <Navbar />
-      <div className="container">
-        <Home/>
+      <div className="container font-garamond" >
+        <Navbar></Navbar>
+        <Home />
         {/* <Experience /> */}
         <Skills />
         <Projects />

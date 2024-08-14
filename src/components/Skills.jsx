@@ -3,13 +3,13 @@ import skills from "./data/skills.json";
 const Skills = () => {
   return (
     <>
-      <div className="container skills" id="skills">
+      <div className="container skills pt-80 lg:pt-10" id="skills">
         <h1 className="text-center my-8 text-3xl">SKILLS</h1>
-        <div className="flex justify-center iitems items-center  flex-wrap flex-col md:flex-row m-auto">
+        <div className="grid md:grid-cols-4 grid-cols-2 justify-center iitems items-center ">
           {skills.map((data) => (
             <>
               <div
-                className="item"
+                className="item "
                 key={data.id}
                 data-aos="flip-left"
                 data-aos-duration="1000"

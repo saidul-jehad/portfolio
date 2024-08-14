@@ -1,4 +1,3 @@
-import React from "react";
 import project from "./data/projects.json";
 
 const Projects = () => {
@@ -39,8 +38,8 @@ const Projects = () => {
                   </div>
                   <div className="card-body text-center">
                     <h5 className="text-center font-semibold text-2xl">{data.title}</h5>
-                    <p className="card-text">{data.description}</p>
-                    <a href={data.demo} target="blank" className="btn btn-warning mx-3">
+                    <p className="card-text font-edo">{data.description}</p>
+                    <a href={data.demo} target="blank" className="btn btn-outline text-yellow-400 hover:text-white mx-3">
                       Demo
                     </a>
                     <p>
